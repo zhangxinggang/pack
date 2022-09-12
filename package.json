@@ -1,6 +1,6 @@
 {
   "name": "@zhangxg/pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple to use webpack.",
   "keywords": [
     "webpack"
@@ -13,7 +13,7 @@
     "pro": "node ./src/start.js",
     "electron": "node ./src/start.js --target electron --mode development"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.17.5",
     "@babel/plugin-proposal-export-default-from": "^7.16.7",
     "@babel/plugin-proposal-object-rest-spread": "^7.17.3",
@@ -21,6 +21,7 @@
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "axios": "^0.21.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^6.5.1",
     "dotenv": "^16.0.0",
@@ -45,8 +46,5 @@
     "webpack-bundle-analyzer": "^4.4.0",
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.4.0"
-  },
-  "dependencies": {
-    "axios": "^0.21.0"
   }
 }
